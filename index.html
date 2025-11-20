@@ -157,7 +157,7 @@ This file is ready to drop into GitHub Pages (no build needed).
               <input id="name" placeholder="Your name" required>
               <input id="email" type="email" placeholder="Your email" required>
               <textarea id="message" rows="4" placeholder="Message"></textarea>
-              <button href="mailto:abishekchamlagai123@gmail.com" type="submit">Send Email</button>
+              <button type="submit">Send Email</button>
             </form>
           </div>
         </div>
@@ -188,7 +188,7 @@ This file is ready to drop into GitHub Pages (no build needed).
       const msg = document.getElementById('message').value.trim();
       const subject = encodeURIComponent('Portfolio contact from ' + name);
       const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + msg);
-      window.location.href = `mailto:abishek@example.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:abishekchamlagai123@gmail.com?subject=${subject}&body=${body}`;
     }
   </script>
 </body>
