@@ -60,7 +60,7 @@ This file is ready to drop into GitHub Pages (no build needed).
     <header>
       <div class="avatar">
         <!-- Replace this with your image: assets/profile.jpg -->
-        <img src="https://avatars.githubusercontent.com/u/52307155?v=4" alt="Profile photo">
+        <img src="assets/profile.jpg" alt="Profile photo">
       </div>
       <div>
         <h1>Abishek Chamlagai</h1>
@@ -136,16 +136,14 @@ This file is ready to drop into GitHub Pages (no build needed).
       </section>
 
       <aside>
-          <div class="card" style="margin-top:16px;text-align:center; position:fixed; top:360px;">
+        <div class="card">
           <h4>Quick Links</h4>
           <p style="color:var(--muted);margin:8px 0">GitHub · LinkedIn · <a href=\"assets/Abishek-CV.pdf\" download style=\"color:#fff;text-decoration:underline\">Download CV</a></p>
-          <div style="display:flex;gap:8px;justify-content:center;margin-top:8px">
+          <div >
             <a href="#" style="text-decoration:none"><span class="chip">GitHub</span></a>
             <a href="#" style="text-decoration:none"><span class="chip">LinkedIn</span></a>
             <a href="#" style="text-decoration:none"><span class="chip">Resume</span></a>
           </div>
-        </div>
-        <div class="card">
           <h3>Skills</h3>
           <div class="skills" style="margin-top:8px">
             <span class="chip">Linux</span>
@@ -189,6 +187,7 @@ This file is ready to drop into GitHub Pages (no build needed).
       const body = encodeURIComponent('Name: ' + name + '\nEmail: ' + email + '\n\n' + msg);
       window.location.href = `mailto:abishekchamlagai123@gmail.com?subject=${subject}&body=${body}`;
     }
+
   </script>
 </body>
 </html>
